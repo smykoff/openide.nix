@@ -1,0 +1,15 @@
+{
+  "version": "262.9437.185.4",
+  "aarch64-linux": {
+    "url": "https://download.openide.ru/262.9437.185.4/openIDE-262.9437.185.4-aarch64.tar.gz",
+    "hash": "sha256-0lKGuL8ZONIIyCdMDeGFqWjQmK1+xSjBq9Q2/0RFuTA="
+  },
+  "x86_64-linux": {
+    "url": "https://download.openide.ru/262.9437.185.4/openIDE-262.9437.185.4.tar.gz",
+    "hash": "sha256-/YRZcaYYawBZkSGHOb5Me8BBD+WgeGD/aJ0XbjsG2Zc="
+  },
+  "aarch64-darwin": {
+    "url": "https://download.openide.ru/262.9437.185.4/openIDE-262.9437.185.4-aarch64.dmg",
+    "hash": "sha256-hZWuepPj64xXOfTqcpQ7v8sMQbCH9X9Cu0lhWunnGrg="
+  }
+}
