@@ -3,8 +3,15 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 base=https://download.openide.ru
-latest=$(curl -fsSL https://openide.ru/download/other \
-  | grep -oP 'openIDE-\K[0-9.]+(?=\.tar\.gz)' | sort -uV | tail -n1)
+
+latest=$(curl -fsSL https://openide.ru/download/ \
+  | grep -oP 'id="community".*?Сборка:</span>\s*\K[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' || true)
+
+if [ -z "$latest" ]; then
+  echo "error: не удалось определить актуальную версию на https://openide.ru/download/" >&2
+  exit 1
+fi
+
 current=$(jq -r .version sources.json 2>/dev/null || echo none)
 
 if [ "$latest" = "$current" ]; then
