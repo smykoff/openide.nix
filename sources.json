@@ -1,15 +1,15 @@
 {
-  "version": "262.10968.63.3",
+  "version": "263.7307.200.3",
   "aarch64-linux": {
-    "url": "https://download.openide.ru/262.10968.63.3/openIDE-262.10968.63.3-aarch64.tar.gz",
-    "hash": "sha256-MNc1f6iRGFhXI3MOz1kFmsj1upN6bZy7rDBqPrPhvnk="
+    "url": "https://download.openide.ru/263.7307.200.3/openIDE-263.7307.200.3-aarch64.tar.gz",
+    "hash": "sha256-j/pdsNSXxkRs16pEj0xNzoURxcjZ1+NQgYFAckK6Gec="
   },
   "x86_64-linux": {
-    "url": "https://download.openide.ru/262.10968.63.3/openIDE-262.10968.63.3.tar.gz",
-    "hash": "sha256-mycDN+1Vw9jm3OMCy3bcATWcsXIktsTcZRHt3BuGeB4="
+    "url": "https://download.openide.ru/263.7307.200.3/openIDE-263.7307.200.3.tar.gz",
+    "hash": "sha256-c/NUZZtOEmAOLFNXEhUb2Hg/wXRf5b+WuRpxkeMdXQ0="
   },
   "aarch64-darwin": {
-    "url": "https://download.openide.ru/262.10968.63.3/openIDE-262.10968.63.3-aarch64.dmg",
-    "hash": "sha256-0ypWgIGiaErb18dXzWYYgpKzX4T0FYLPPtxW/H1fPL8="
+    "url": "https://download.openide.ru/263.7307.200.3/openIDE-263.7307.200.3-aarch64.dmg",
+    "hash": "sha256-l0mlhBbm+1iqSjQzbZOoS1B9s60422zJl4iir8M3kpE="
   }
 }
